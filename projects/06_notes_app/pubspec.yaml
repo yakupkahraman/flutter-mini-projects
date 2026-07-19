@@ -1,0 +1,55 @@
+name: notes_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.1.5
+  provider: ^6.1.2
+  intl: ^0.20.2
+  shared_preferences: ^2.5.2
+  hugeicons: ^0.0.7
+  isar_community: ^3.3.2
+  isar_community_flutter_libs: ^3.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: any
+  isar_community_generator: ^3.3.2
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/icons/ic_launcher.png"
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: "assets/icons/ic_launcher.png"
+  min_sdk_android: 24
+  web:
+    generate: true
+    image_path: "assets/icons/ic_launcher.png"
+    background_color: "#000000"
+    theme_color: "#000000"
+  windows:
+    generate: true
+    image_path: "assets/icons/ic_launcher.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/icons/ic_launcher.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+  fonts:
+    - family: MadimiOne
+      fonts:
+        - asset: assets/fonts/MadimiOne-Regular.ttf
