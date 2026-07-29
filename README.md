@@ -38,6 +38,7 @@ build something similar yourself.
 | 05 | [Study Tracker](projects/05_study_tracker) | 🟡 Intermediate | Persistence with `shared_preferences` + JSON, charts with `fl_chart`, date picker, undo via `SnackBar` |
 | 06 | [Notes App](projects/06_notes_app) | 🔴 Advanced | `provider` state management, Isar local database, full CRUD + search, swipe-to-delete, theme switching |
 | 07 | [Weather App](projects/07_weather_app) | 🟡 Intermediate | REST API calls, `async`/`await`, JSON parsing, geolocation permissions, Lottie animations |
+| 08 | [AI Chat](projects/08_ai_chat) | 🟡 Intermediate | REST API integration with LLMs, `provider` chat state, `ScrollController` auto-scroll, custom chat UI |
 
 Projects are roughly ordered by difficulty. If you're brand new to Flutter, start
 at 01 and work your way down — each one assumes you're comfortable with what came
@@ -70,11 +71,12 @@ flutter run
 > repo small. `flutter create .` regenerates them without touching your `lib/`
 > code. Pass only the platforms you actually need.
 
-Two projects need an extra step:
+Three projects need an extra step:
 
 - **[07 Weather App](projects/07_weather_app)** — needs a free
   [OpenWeatherMap](https://openweathermap.org/api) API key and location
   permissions.
+- **[08 AI Chat](projects/08_ai_chat)** — needs an Anthropic API key entered via the app UI.
 - **[06 Notes App](projects/06_notes_app)** — uses generated Isar code, so run
   `dart run build_runner build` if you change the model.
 
@@ -83,7 +85,7 @@ Each project's own README has the full details.
 ## 🛠️ Tech Stack
 
 Flutter · Dart · `provider` · `isar_community` · `shared_preferences` ·
-`fl_chart` · `http` · `geolocator` · `lottie`
+`fl_chart` · `http` · `geolocator` · `lottie` · `hugeicons`
 
 ## 🤝 Contributing
 
