@@ -40,9 +40,7 @@ build something similar yourself.
 | 07 | [Weather App](projects/07_weather_app) | 🟡 Intermediate | REST API calls, `async`/`await`, JSON parsing, geolocation permissions, Lottie animations |
 | 08 | [AI Chat](projects/08_ai_chat) | 🟡 Intermediate | REST API integration with LLMs, `provider` chat state, `ScrollController` auto-scroll, custom chat UI |
 
-Projects are roughly ordered by difficulty. If you're brand new to Flutter, start
-at 01 and work your way down — each one assumes you're comfortable with what came
-before it.
+Projects are categorized by difficulty level (🟢 Beginner, 🟡 Intermediate, 🔴 Advanced). If you're brand new to Flutter, we recommend starting with the beginner projects and building your way up.
 
 ## 🚀 Getting Started
 

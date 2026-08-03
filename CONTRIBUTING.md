@@ -35,8 +35,7 @@ digits so folders keep sorting correctly.
 
 ### 2. What makes a good project here
 
-Projects are roughly ordered by difficulty, and each one should **teach something
-the earlier ones don't**. Before starting, check the table in the
+Each project should **teach something existing ones don't**, regardless of difficulty level. Before starting, check the table in the
 [root README](README.md) — if your idea only covers concepts already demonstrated,
 it probably belongs as an improvement to an existing project instead.
 

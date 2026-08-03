@@ -9,7 +9,7 @@ This document defines both the **project context** for AI agents working in the 
 **Flutter Mini Projects** is an educational repository consisting of progressive, self-contained, and modular mini-applications for developers learning Flutter and Dart.
 
 - **Core Philosophy:** Instead of complex or over-engineered code, focus on clean, targeted, and readable code that beginners can easily understand.
-- **Difficulty Progression:** Projects are ordered by difficulty (🟢 Beginner → 🟡 Intermediate → 🔴 Advanced).
+- **Difficulty Levels:** Each project is tagged with a difficulty level (🟢 Beginner, 🟡 Intermediate, 🔴 Advanced).
 - **Repository Structure:**
   ```text
   flutter-mini-projects/
