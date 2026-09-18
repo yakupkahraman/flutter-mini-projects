@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/github/stars/yakupkahraman/flutter-mini-projects?style=flat&logo=github" alt="Stars" />
 </p>
 
-Seven small, self-contained Flutter apps — each one complete, runnable, and built
+Small, self-contained Flutter apps — each one complete, runnable, and built
 around a handful of new concepts.
 
 <p align="center">
@@ -29,16 +29,17 @@ build something similar yourself.
 
 ## 📚 Projects
 
-| # | Project | Level | What it teaches |
-|---|---------|-------|-----------------|
-| 01 | [BMI Calculator](projects/01_bmi_calculator) | 🟢 Beginner | `setState`, reusable widgets, `Slider`, `enum`, passing data between screens with `Navigator` |
-| 02 | [Calculator](projects/02_calculator) | 🟢 Beginner | Adding a pub package, `MediaQuery` sizing, button styling, expression parsing with `math_expressions` |
-| 03 | [XOX Game](projects/03_xox_game) | 🟢 Beginner | `GridView.builder`, list-based game state, win detection, `AlertDialog`, custom fonts |
-| 04 | [Quiz App](projects/04_quiz_app) | 🟢 Beginner | Modeling data with a Dart class, `RadioListTile`, building widgets from a list, scoring |
-| 05 | [Study Tracker](projects/05_study_tracker) | 🟡 Intermediate | Persistence with `shared_preferences` + JSON, charts with `fl_chart`, date picker, undo via `SnackBar` |
-| 06 | [Notes App](projects/06_notes_app) | 🔴 Advanced | `provider` state management, Isar local database, full CRUD + search, swipe-to-delete, theme switching |
-| 07 | [Weather App](projects/07_weather_app) | 🟡 Intermediate | REST API calls, `async`/`await`, JSON parsing, geolocation permissions, Lottie animations |
-| 08 | [AI Chat](projects/08_ai_chat) | 🟡 Intermediate | REST API integration with LLMs, `provider` chat state, `ScrollController` auto-scroll, custom chat UI |
+| #   | Project                                      | Level           | What it teaches                                                                                          |
+| --- | -------------------------------------------- | --------------- | -------------------------------------------------------------------------------------------------------- |
+| 01  | [BMI Calculator](projects/01_bmi_calculator) | 🟢 Beginner     | `setState`, reusable widgets, `Slider`, `enum`, passing data between screens with `Navigator`            |
+| 02  | [Calculator](projects/02_calculator)         | 🟢 Beginner     | Adding a pub package, `MediaQuery` sizing, button styling, expression parsing with `math_expressions`    |
+| 03  | [XOX Game](projects/03_xox_game)             | 🟢 Beginner     | `GridView.builder`, list-based game state, win detection, `AlertDialog`, custom fonts                    |
+| 04  | [Quiz App](projects/04_quiz_app)             | 🟢 Beginner     | Modeling data with a Dart class, `RadioListTile`, building widgets from a list, scoring                  |
+| 05  | [Study Tracker](projects/05_study_tracker)   | 🟡 Intermediate | Persistence with `shared_preferences` + JSON, charts with `fl_chart`, date picker, undo via `SnackBar`   |
+| 06  | [Notes App](projects/06_notes_app)           | 🔴 Advanced     | `provider` state management, Isar local database, full CRUD + search, swipe-to-delete, theme switching   |
+| 07  | [Weather App](projects/07_weather_app)       | 🟡 Intermediate | REST API calls, `async`/`await`, JSON parsing, geolocation permissions, Lottie animations                |
+| 08  | [AI Chat](projects/08_ai_chat)               | 🟡 Intermediate | REST API integration with LLMs, `provider` chat state, `ScrollController` auto-scroll, custom chat UI    |
+| 09  | [Group Chat](projects/09_group_chat)         | 🔴 Advanced     | Supabase Auth, realtime `.stream()`, `StreamBuilder` auth gate, Row Level Security, `--dart-define` keys |
 
 Projects are categorized by difficulty level (🟢 Beginner, 🟡 Intermediate, 🔴 Advanced). If you're brand new to Flutter, we recommend starting with the beginner projects and building your way up.
 
@@ -69,7 +70,7 @@ flutter run
 > repo small. `flutter create .` regenerates them without touching your `lib/`
 > code. Pass only the platforms you actually need.
 
-Three projects need an extra step:
+Four projects need an extra step:
 
 - **[07 Weather App](projects/07_weather_app)** — needs a free
   [OpenWeatherMap](https://openweathermap.org/api) API key and location
@@ -77,13 +78,15 @@ Three projects need an extra step:
 - **[08 AI Chat](projects/08_ai_chat)** — needs an Anthropic API key entered via the app UI.
 - **[06 Notes App](projects/06_notes_app)** — uses generated Isar code, so run
   `dart run build_runner build` if you change the model.
+- **[09 Group Chat](projects/09_group_chat)** — needs a free [Supabase](https://supabase.com)
+  project; the README walks through the one-time setup.
 
 Each project's own README has the full details.
 
 ## 🛠️ Tech Stack
 
 Flutter · Dart · `provider` · `isar_community` · `shared_preferences` ·
-`fl_chart` · `http` · `geolocator` · `lottie` · `hugeicons`
+`fl_chart` · `http` · `geolocator` · `lottie` · `hugeicons` · `supabase_flutter`
 
 ## 🤝 Contributing
 

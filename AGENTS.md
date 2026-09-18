@@ -22,7 +22,8 @@ This document defines both the **project context** for AI agents working in the 
   │   ├── 05_study_tracker/      # 🟡 shared_preferences, fl_chart
   │   ├── 06_notes_app/          # 🔴 provider, Isar DB, CRUD
   │   ├── 07_weather_app/        # 🟡 REST API, async/await, Lottie
-  │   └── 08_ai_chat/            # 🟡 LLM API, Provider, Chat UI
+  │   ├── 08_ai_chat/            # 🟡 LLM API, Provider, Chat UI
+  │   └── 09_group_chat/         # 🔴 Supabase Auth, Realtime, RLS
   ├── CONTRIBUTING.md            # Contribution guidelines
   └── README.md                  # Root project directory and guide
   ```
@@ -39,9 +40,9 @@ AI Agents modifying code or working in this repository **must strictly adhere to
    - Never commit `build/` or `.dart_tool/` directories.
 
 2. **Project Naming Conventions:**
-   - New project folder names: `projects/0N_snake_case_name/` (e.g., `09_habit_tracker`).
+   - New project folder names: `projects/0N_snake_case_name/` (e.g., `10_habit_tracker`).
    - The folder name must match the `name:` field in `pubspec.yaml` **exactly**.
-   - Use two-digit zero-padded numbers matching the next available number (`09`, `10`, etc.).
+   - Use two-digit zero-padded numbers matching the next available number (`10`, `11`, etc.).
 
 3. **Code Quality and Linter:**
    - After making changes, always run `dart format .` and `flutter analyze`. `flutter analyze` must return 0 errors and warnings.
@@ -64,7 +65,7 @@ When helping users contribute a new mini-project or improve an existing one, AI 
 
 ### 2. Contribution Workflow & Checklist
 When building or reviewing a new project PR, ensure all items are completed:
-- [ ] Folder named `projects/0N_snake_case_name/` using the next available 2-digit number (e.g., `09_todo_app`).
+- [ ] Folder named `projects/0N_snake_case_name/` using the next available 2-digit number (e.g., `10_todo_app`).
 - [ ] Folder name matches the `name:` key in `pubspec.yaml` exactly.
 - [ ] Platform folders (`android/`, `ios/`, etc.), `build/`, and `.dart_tool/` are **excluded** from Git.
 - [ ] Project-level `README.md` is created following the standard template (Title, Level Badge, Screenshots, What You'll Learn, Project Structure, Key Concepts, Getting Started, Try It Yourself).
